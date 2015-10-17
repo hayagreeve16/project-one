@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="40.6px" height="43.9px" viewBox="0 0 40.6 43.9" enable-background="new 0 0 40.6 43.9" xml:space="preserve">
+	 <style>
+svg{
+  stroke-width: 0.5px;
+}
+	 </style>
+<g id="marker">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-143.7405" y1="107.5955" x2="-143.7405" y2="134.9822" gradientTransform="matrix(1 0 0 -1 164.04 143.2397)">
+		<stop  offset="0.1" style="stop-color:#FA7A2C"/>
+		<stop  offset="0.9" style="stop-color:#FFCC33"/>
+	</linearGradient>
+	<path fill="none" stroke="url(#SVGID_1_)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M29.844,18.302c0,5.292-9.544,16.843-9.544,16.843s-9.544-11.551-9.544-16.843c0-5.293,4.331-9.544,9.544-9.544
+		C25.513,8.677,29.844,13.089,29.844,18.302z"/>
+	
+		<linearGradient id="mapMarker_2_" gradientUnits="userSpaceOnUse" x1="-143.7405" y1="121.7097" x2="-143.7405" y2="128.1648" gradientTransform="matrix(1 0 0 -1 164.04 143.2397)">
+		<stop  offset="0.1" style="stop-color:#FA7A2C"/>
+		<stop  offset="0.9" style="stop-color:#FFCC33"/>
+	</linearGradient>
+	
+		<path id="mapMarker" fill="none" stroke="url(#mapMarker_2_)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M20.3,15.575c1.506,0,2.727,1.221,2.727,2.727c0,1.508-1.221,2.729-2.727,2.729c-1.435,0-2.612-1.108-2.719-2.518
+		c-0.005-0.069-0.008-0.141-0.008-0.211C17.573,16.796,18.794,15.575,20.3,15.575z	">
+<animate  fill="remove" additive="replace" accumulate="none" restart="always" dur="4s" attributeName="d" calcMode="linear" attributeType="XML" repeatDur="indefinite" values="M20.3,15.575c1.506,0,2.727,1.221,2.727,2.727c0,1.507-1.221,2.728-2.727,2.728c-1.435,0-2.612-1.108-2.719-2.518   c-0.005-0.069-0.008-0.14-0.008-0.21C17.573,16.796,18.794,15.575,20.3,15.575z;    M17.573,18.302h5.453H17.573z;    M20.3,15.575c1.506,0,2.727,1.221,2.727,2.727c0,1.507-1.221,2.728-2.727,2.728c-1.435,0-2.612-1.108-2.719-2.518   c-0.005-0.069-0.008-0.14-0.008-0.21C17.573,16.796,18.794,15.575,20.3,15.575z;">
+			</animate>
+	</path>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-146.4666" y1="124.8679" x2="-146.4666" y2="124.8679" gradientTransform="matrix(1 0 0 -1 164.04 143.2397)">
+		<stop  offset="0.1" style="stop-color:#FA7A2C"/>
+		<stop  offset="0.9" style="stop-color:#FFCC33"/>
+	</linearGradient>
+	<path fill="none" stroke="url(#SVGID_2_)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M17.573,18.372"/>
+</g>
+</svg>

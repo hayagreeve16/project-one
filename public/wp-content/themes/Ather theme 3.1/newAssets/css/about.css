@@ -1,0 +1,244 @@
+/*Mixin Block*/
+/*End of Mixin Block*/
+/*Functions*/
+/* line 5, ../sass/about.scss */
+.about-hero-wrapper {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: rgba(255, 204, 51, 0.85);
+  background: -webkit-linear-gradient(90deg, rgba(250, 122, 44, 0.85) 10%, rgba(255, 204, 51, 0.85) 90%);
+  background: -moz-linear-gradient(90deg, rgba(250, 122, 44, 0.85) 10%, rgba(255, 204, 51, 0.85) 90%);
+  background: -ms-linear-gradient(90deg, rgba(250, 122, 44, 0.85) 10%, rgba(255, 204, 51, 0.85) 90%);
+  background: -o-linear-gradient(90deg, rgba(250, 122, 44, 0.85) 10%, rgba(255, 204, 51, 0.85) 90%);
+  background: linear-gradient(0deg, rgba(250, 122, 44, 0.85) 10%, rgba(255, 204, 51, 0.85) 90%);
+}
+
+/* line 16, ../sass/about.scss */
+.videoBG video {
+  display: block;
+}
+
+/* line 21, ../sass/about.scss */
+.about-hero-wrapper .row {
+  padding: 10px 0;
+}
+
+/* line 25, ../sass/about.scss */
+.hero-bigtype {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  position: relative;
+  width: 100%;
+}
+
+/* line 31, ../sass/about.scss */
+.hero-bigtype h1 {
+  font-weight: 100;
+  font-size: 6.75em;
+  margin-top: 110px;
+  color: #fff;
+  line-height: 120%;
+  margin-bottom: 35px;
+}
+
+/* line 39, ../sass/about.scss */
+.hero-bigtype p {
+  font-weight: 300;
+  font-size: 1.6em;
+  line-height: 120%;
+  margin-top: 15px;
+  color: #fff;
+}
+
+/* line 50, ../sass/about.scss */
+.aboutpage .about-hero-wrapper .anim-success.bikeAnimBlock {
+  -webkit-animation: 1s about-bikeZoom linear forwards;
+  -moz-animation: 1s about-bikeZoom linear forwards;
+  -o-animation: 1s about-bikeZoom linear forwards;
+  animation: 1s about-bikeZoom linear forwards;
+}
+
+/* line 53, ../sass/about.scss */
+.aboutpage .about-hero-wrapper .anim-success.bikeAnimBlock img.bwo-wheel {
+  -webkit-animation: 1s wheelRotate linear forwards;
+  -moz-animation: 1s wheelRotate linear forwards;
+  -o-animation: 1s wheelRotate linear forwards;
+  animation: 1s wheelRotate linear forwards;
+}
+
+/* line 56, ../sass/about.scss */
+.aboutpage .about-hero-wrapper .bike-wo-wheels {
+  width: 29%;
+  max-width: 400px;
+}
+
+@-webkit-keyframes about-bikeZoom {
+  /* line 61, ../sass/about.scss */
+  0% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+  /* line 62, ../sass/about.scss */
+  100% {
+    -webkit-transform: translateX(-57%);
+    -moz-transform: translateX(-57%);
+    -o-transform: translateX(-57%);
+    transform: translateX(-57%);
+  }
+}
+
+@-moz-keyframes about-bikeZoom {
+  /* line 61, ../sass/about.scss */
+  0% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+  /* line 62, ../sass/about.scss */
+  100% {
+    -webkit-transform: translateX(-57%);
+    -moz-transform: translateX(-57%);
+    -o-transform: translateX(-57%);
+    transform: translateX(-57%);
+  }
+}
+
+@-o-keyframes about-bikeZoom {
+  /* line 61, ../sass/about.scss */
+  0% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+  /* line 62, ../sass/about.scss */
+  100% {
+    -webkit-transform: translateX(-57%);
+    -moz-transform: translateX(-57%);
+    -o-transform: translateX(-57%);
+    transform: translateX(-57%);
+  }
+}
+
+@keyframes about-bikeZoom {
+  /* line 61, ../sass/about.scss */
+  0% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+  /* line 62, ../sass/about.scss */
+  100% {
+    -webkit-transform: translateX(-57%);
+    -moz-transform: translateX(-57%);
+    -o-transform: translateX(-57%);
+    transform: translateX(-57%);
+  }
+}
+
+/* line 67, ../sass/about.scss */
+.about-main-copy {
+  padding: 40px;
+  margin-top: 30px;
+}
+
+/* line 72, ../sass/about.scss */
+.about-main-copy p {
+  color: #000;
+  margin-bottom: 60px;
+  line-height: 170%;
+}
+
+/* line 77, ../sass/about.scss */
+.aboutpage h3 {
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/* line 86, ../sass/about.scss */
+.container-wrapper.team-wrapper {
+  background-color: #efefef;
+  padding-top: 35px;
+}
+
+/* line 94, ../sass/about.scss */
+.hero-video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: 992px) {
+  /* line 106, ../sass/about.scss */
+  .about-main-copy {
+    margin-left: 20.833333335%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 115, ../sass/about.scss */
+  .bikeAnimBlock {
+    display: none;
+  }
+
+  /* line 118, ../sass/about.scss */
+  .hero-bigtype {
+    padding: 0 15px;
+  }
+
+  /* line 122, ../sass/about.scss */
+  .about-hero-wrapper {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: rgba(255, 204, 51, 0.85), url(http://atherenergy.com/wp-content/themes/Ather%20theme%203.1/newAssets/newAssets/images/herovideo.jpg) no-repeat;
+    background: -webkit-linear-gradient(90deg, rgba(250, 122, 44, 0.85) 10%, rgba(255, 204, 51, 0.85) 90%), url(http://atherenergy.com/wp-content/themes/Ather%20theme%203.1/newAssets/newAssets/images/herovideo.jpg) no-repeat;
+    background: -moz-linear-gradient(90deg, rgba(250, 122, 44, 0.85) 10%, rgba(255, 204, 51, 0.85) 90%), url(http://atherenergy.com/wp-content/themes/Ather%20theme%203.1/newAssets/newAssets/images/herovideo.jpg) no-repeat;
+    background: -ms-linear-gradient(90deg, rgba(250, 122, 44, 0.85) 10%, rgba(255, 204, 51, 0.85) 90%), url(http://atherenergy.com/wp-content/themes/Ather%20theme%203.1/newAssets/newAssets/images/herovideo.jpg) no-repeat;
+    background: -o-linear-gradient(90deg, rgba(250, 122, 44, 0.85) 10%, rgba(255, 204, 51, 0.85) 90%), url(http://atherenergy.com/wp-content/themes/Ather%20theme%203.1/newAssets/newAssets/images/herovideo.jpg) no-repeat;
+    background: linear-gradient(0deg, rgba(250, 122, 44, 0.85) 10%, rgba(255, 204, 51, 0.85) 90%), url(http://atherenergy.com/wp-content/themes/Ather%20theme%203.1/newAssets/newAssets/images/herovideo.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  /* line 137, ../sass/about.scss */
+  .videoBG {
+    display: none;
+  }
+
+  /* line 142, ../sass/about.scss */
+  .about-main-copy {
+    padding: 20px;
+  }
+
+  /* line 145, ../sass/about.scss */
+  .about-main-copy p {
+    font-size: 1.5em;
+  }
+}
+/* line 155, ../sass/about.scss */
+.container-wrapper.career-wrapper {
+  padding: 20px 0;
+  background: #efefef;
+  text-align: center;
+}
+
+/* line 161, ../sass/about.scss */
+.career-band-block p {
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+  padding: 0 15px;
+  padding-bottom: 40px;
+}

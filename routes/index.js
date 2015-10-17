@@ -7,38 +7,84 @@ var util = require('util');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index');
+  res.sendFile(__dirname+"/public/index.html");
 });
 
 router.post('/send',function(req,res,next){
   var form = new formidable.IncomingForm();
 
-      form.parse(req, function(err, fields, files) {
-        var data = fs.readFileSync(files.cv.path);
-        var buf = new Buffer(data);
-        var base64Data = buf.toString("base64");
+  form.parse(req, function(err, fields, files) {
+    var data=null,
+        buf=null,
+        base64CVData=null,
+        base64FormData=null;
+    try{
+      data = fs.readFileSync(files.CV.path);
+      buf = new Buffer(data);
+      base64CVData = buf.toString("base64");
 
-            mandrill('/messages/send', {
-              message: {
-                to: [{email:fields.email, name: 'Sudar Abisheck'}],
-                from_email: 'no_reply@mandrilltest.com',
-                subject: "Confirmation Mail",
-                text: "Hello 'someone',\nThis mail is to inform you that we have received your application.\nWe will contact you soon.\n\n\n\nIf you received this email by mistake, simply delete it.",
-                "attachments": [{
-                  "type": "text/plain",
-                  "name": "cv.pdf",
-                  "content": base64Data
-                }]
-              }
-            }, function(error, response)
-            {
-              if (error) console.log( JSON.stringify(error) );
+      var formData = "First Name : "+fields.FNAME+
+        "\nMiddle Name : "+fields.MNAME+
+        "\nLast Name : "+fields.LNAME+
+        "\nEmail : "+fields.EMAIL+
+        "\nMobile Number : "+fields.MOBILE1+" , "+fields.MOBILE2+
+        "\nSex : "+fields.MMERGE5+
+        "\nAddress : "+fields.ADDRESS+
+        "\nCity : "+fields.CITY+
+        "\nState: "+fields.STATE+
+        "\nCountry : "+fields.COUNTRY+
+        "\nPincode : "+fields.PINCODE+
+        "\nPortfolio : "+fields.PORT+
+        "\nWork Experience : "+fields.WORKEXP+" years"+
+        "\nExpected Salary : "+fields.EXPSALARY+
+        "\nReference/comments/questions : "+fields.COMMENTS;
 
-              else console.log(response);
-            });
-            res.writeHead(200, {'content-type': 'text/html'});
-            res.write('<h1 style="color:green; font:sans-serif; text-align:center">:) Thank you for considering us</h1><p style="text-align:center"> we will contact you soon.</p>');
-            res.end();
-          });
+      buf= new Buffer(formData);
+      base64FormData = buf.toString("base64");
+    }catch(e){
+    console.log(e);
+    }
+
+    
+
+    mandrill('/messages/send', {
+      message: {
+        to: [{email:fields.EMAIL, name: fields.FNAME+" "+fields.LNAME}],
+        from_email: 'no_reply@swaayattrobots.in',
+        subject: "Confirmation Mail",
+        text: "Hello "+fields.FNAME+",\nThis mail is to inform you that we have received your application.\nWe will contact you soon.\n\n\n\nIf you received this email by mistake, simply delete it."
+      }
+    }, function(error, response){
+      if (error) console.log( JSON.stringify(error) );
+
+      else console.log(response);
+    });
+
+    mandrill('/messages/send', {
+      message: {
+        to: [{email:"vrbalaji16@gmail.com", name: "Balaji VR Reddy"}],
+        from_email: fields.EMAIL,
+        from_name: fields.FNAME+" "+fields.LNAME,
+        subject: "Application and Resume",
+        text: "Hello,\nI filled a form on your website and the data I just entered is magically mailed to you as attachments.\n\nPlease have a look into it !!!",
+        "attachments": [{
+          "type": "application/pdf",
+          "name": fields.FNAME+"_"+fields.LNAME+"_cv.pdf",
+          "content": base64CVData
+        },{
+          "type": "text/plain",
+          "name": fields.FNAME+"_"+fields.LNAME+"_form_data.txt",
+          "content": base64FormData
+        }]
+      }
+    }, function(error, response){
+      if (error) console.log( JSON.stringify(error) );
+
+      else console.log(response);
+    });
+    res.writeHead(200, {'content-type': 'text/html'});
+    res.write('<h1 style="color:green; font:sans-serif; text-align:center">:) Thank you for considering us</h1><p style="text-align:center"> we will contact you soon.</p>');
+    res.end();
+  });
 });
 module.exports = router;

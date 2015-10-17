@@ -1,0 +1,657 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400);
+@font-face {
+  font-family: "Din Black";
+  src: url("http://atherenergy.com/wp-content/themes/fonts/din-black-webfont.eot");
+  src: url("../fonts/din-black-webfont.eot?") format("embedded-opentype"), url("http://atherenergy.com/wp-content/themes/fonts/din-black-webfont.woff") format("woff"), url("../fonts/din-black-webfont.ttf") format("truetype"), url("http://atherenergy.com/wp-content/themes/fonts/din-black-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: "myriadat";
+    src: url("fonts/MYRIADAT.woff");
+}
+* {
+    font-family: "Open Sans","myriadat",sans-serif;
+    font-weight: 100;
+}
+a:focus {
+    outline: medium none;
+}
+.menu ul {
+    float: right;
+    margin: 0 50px 0 0;
+    padding: 9px;
+}
+.menu {
+    display: table;
+    font-family: "Open Sans","myriadat",sans-serif;
+    font-weight: 100;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+.page_item a:hover {
+    color: #3156A2;
+}
+.page_item a {
+    color: #35353C;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 35px;
+    text-decoration: none;
+}
+.page_item {
+    display: inline;
+    margin: 0;
+}
+body {
+    display: table;
+    margin: 0;
+    width: 100%;
+}
+.main_body {
+    display: table;
+    margin: 100px auto auto;
+    width: 960px;
+}
+.lowContent div {
+    display: inline-block;
+    float: left;
+    height: 216px;
+    line-height: 1.5;
+    margin: 0 5px;
+    padding: 80px 45px;
+    text-align: justify;
+    width: 220px;
+}
+.lowContent {
+    color: #036FAE;
+    font-family: "Open Sans","myriadat",sans-serif;
+    font-weight: 100;
+    width: 100%;
+}
+.lowContent a {
+    color: #5B5B5C;
+    text-decoration: none;
+}
+.lowContent h3 {
+    color: #4866A9;
+    font-family: "Open Sans","myriadat",sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.blog {
+    display: inline;
+    float: left;
+    font-family: "Open Sans","myriadat",sans-serif;
+    line-height: 1.7;
+    margin-right: 15px;
+    text-align: justify;
+    width: 600px;
+    word-wrap: break-word;
+}
+.blog p {
+    font-family: "Open Sans","myriadat",sans-serif;
+    text-align: justify;
+}
+.blogContent {
+    padding: 0 20px 6px;
+}
+.blogHeader {
+    font-family: "Open Sans","myriadat",sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+}
+.blogHeader a {
+    color: #3156A2;
+    font-family: "Open Sans","myriadat",sans-serif;
+    line-height: 1;
+    text-decoration: none;
+}
+.blogPosted {
+    color: #4B4D4F;
+    font-family: "Open Sans","myriadat",sans-serif;
+    margin-top: 8px;
+}
+.mainImgWrapper {
+    margin: 40px auto 0;
+    text-align: center;
+    width: 960px;
+}
+#lowcontentwrapper {
+    display: table;
+    margin-top: 8px;
+    text-align: center;
+    width: 100%;
+}
+.lowContent {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+.lowContent a:hover .aboutTeam {
+    background-color: #E2E5E6;
+    border-radius: 3px;
+}
+.sidebarWrapper {
+    color: #3156A2;
+    display: table;
+    float: left;
+    font-family: "Open Sans","myriadat",sans-serif;
+    margin-right: 15px;
+    margin-top: -25px;
+    padding: 0;
+    width: 300px;
+}
+.sidebarWrapper ul li a {
+    color: #4B4D4F;
+    text-decoration: none;
+}
+.sidebarWrapper ul li {
+    list-style: none outside none;
+    margin-top: 5px;
+    padding: 10px;
+}
+.categories, .archives, .categories ul, .archives ul {
+    margin: 0;
+    padding: 0 20px;
+}
+.sidebarWrapper ul {
+    margin: 0;
+    padding: 0;
+}
+.archives {
+    margin-top: 40px;
+}
+.productwrapper {
+    background-color: #D7EEFB;
+    margin: auto;
+    width: 100%;
+}
+.productTable td {
+    line-height: 1.8;
+    padding-right: 10px;
+}
+.productContent {
+    background-color: rgba(255, 255, 255, 0.75);
+    font-family: "Open Sans","myriadat",sans-serif;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px;
+    width: 960px;
+}
+.wrapper {
+    display: table;
+    width: 100%;
+}
+.map iframe {
+    margin-bottom: 15px;
+}
+.categories ul, .archives ul {
+    background-color: rgba(255, 255, 255, 0);
+}
+.commentwrapper {
+    font-family: "Open Sans","myriadat",sans-serif;
+    margin: 15px 0;
+    padding: 15px;
+}
+.form-allowed-tags {
+    display: none;
+}
+.blog ol li {
+    margin-top: 10px;
+}
+.productTableHeader {
+    color: #036FAE;
+}
+.reply {
+    background-color: #3156A2;
+    padding: 2px 20px;
+    width: 40px;
+}
+.reply a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.form-submit input {
+    background-color: #3156A2;
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 4px 15px;
+}
+.children {
+    margin-top: 10px;
+}
+#commentform textarea {
+    display: table;
+    margin-left: 41px;
+    resize: none;
+}
+.logged-in-as a {
+    color: #036FAE;
+    text-decoration: none;
+}
+.comment-meta a, .comment-respond a {
+    color: #3156A2;
+    text-decoration: none;
+}
+.commentWrapper li {
+    list-style: none outside none;
+}
+.comment-respond a {
+    font-weight: 100;
+    padding: 2px 10px;
+}
+.comment-body {
+    margin-top: 10px;
+    padding: 10px;
+}
+.aboutUsContent {
+    width: 100%;
+}
+.aboutUsContent p {
+    color: #35353C;
+    text-align: justify;
+}
+.teamWrapper {
+    display: table;
+    margin: auto;
+}
+.picture {
+    padding: 10px;
+    text-align: center;
+}
+.name {
+    color: #35353C;
+    font-family: "Open Sans","myriadat",sans-serif;
+    font-size: 17px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.details {
+    color: #35353C;
+    display: none;
+    font-family: "Open Sans","myriadat",sans-serif;
+    line-height: 1.5;
+    padding: 10px 15px;
+    text-align: justify;
+}
+.contactUsWrapper {
+    background-color: #008000;
+    float: none;
+    margin: auto;
+    width: 711px;
+}
+.contactUsContents {
+    float: left;
+    margin-top: -10px;
+    padding: 5px 19px;
+    width: 329px;
+}
+.socilaConnect div {
+    margin-top: 10px;
+    padding: 6px 20px;
+    width: 180px;
+}
+.socilaConnect {
+    float: left;
+    margin-left: 15px;
+    width: 180px;
+}
+.contactUsBody {
+    margin-top: 103px;
+    width: 600px;
+}
+.productExtra {
+    float: left;
+    margin: 10px 25px;
+}
+.header {
+    margin: 20px auto auto;
+    width: 960px;
+}
+.img {
+    float: left;
+}
+.img img {
+    height: 60px;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+.faceboook > img, .linkedin > img, .email > img {
+    padding-right: 10px;
+}
+.column {
+    display: table;
+    float: left;
+    width: 295px;
+}
+.teaminfo {
+    background-color: #F0E5D7;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+#secondCol {
+    margin: 0 15px;
+}
+.picture:hover, .name:hover {
+    cursor: pointer;
+}
+.technologyContents {
+    color: #35353C;
+    padding: 0 25px;
+}
+.comment-form-comment label {
+    display: table;
+    margin-top: 18px;
+}
+.logged-in-as {
+}
+.form-submit {
+    display: table;
+    margin: auto;
+}
+.commentWrapper h2, .commentWrapper h3 {
+    color: #3156A2;
+    font-weight: 100;
+}
+.thumpImg img {
+    float: left;
+    height: 135px;
+    margin-top: 5px;
+    padding-right: 15px;
+    width: 120px;
+}
+.mainImg img {
+    height: 440px;
+}
+.img img {
+    border: medium none;
+    margin-left: 15px;
+}
+.headerBodyWrapper {
+    background: radial-gradient(ellipse at center center , #FDF3E3 0%, #DBCAB8 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.mainImg div {
+    color: #5B5B5C;
+    display: table;
+    font-family: "Open Sans","myriadat",sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 0.7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 705px;
+}
+.headerWrapper {
+    padding-top: 10px;
+}
+.down_logo {
+    float: right;
+}
+.footerWrapper {
+    color: #35353C;
+    display: table;
+    margin: 75px auto 25px;
+    width: 960px;
+}
+.copyRight {
+    color: #5B5B5C;
+    display: inline-block;
+    float: left;
+    font-family: "Open Sans","myriadat",sans-serif;
+    margin-top: 25px;
+    vertical-align: middle;
+}
+.faceboook a {
+    margin-left: 25px;
+}
+.col {
+    display: inline-block;
+    float: left;
+    width: 450px;
+}
+.row {
+    display: table;
+    margin-top: 25px;
+    width: 960px;
+}
+.aboutUsContent p {
+    padding: 0 25px;
+}
+.current_page_item a {
+    color: #3156A2;
+}
+.addressWrapper {
+    display: table;
+    width: 960px;
+}
+.addressWrapper div {
+    display: inline-block;
+    float: left;
+}
+.add {
+    width: 300px;
+}
+.linkedIn {
+    margin-left: 25px;
+}
+.address, .phoneNo, .email {
+    line-height: 1.5;
+    margin-top: 30px;
+    padding-left: 25px;
+    width: 240px;
+}
+.phoneNo {
+    padding-left: 25px;
+}
+.email {
+    padding-left: 25px;
+}
+.secCol {
+    float: right;
+}
+.author {
+    float: right;
+    font-size: 15px;
+    margin-right: 138px;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+.faceboook a:hover img, .linkedIn a:hover img {
+    opacity: 0.5;
+}
+.col h3 {
+    font-weight: 500;
+}
+.technology #startLineTech {
+    font-size: 19px;
+    line-height: 1;
+}
+.categories h2, .archives h2, .tags h2 {
+    text-align: center;
+}
+.sidebarWrapper ul li a:hover, .tags a:hover {
+    color: #3156A2;
+}
+.fn a {
+    color: #3156A2;
+    text-decoration: none;
+}
+.tags a {
+    color: #4B4D4F;
+    text-decoration: none;
+}
+.tagsList {
+    padding: 0 30px;
+}
+
+.comment-form-email > input {
+    margin-left: 4px;
+}
+
+
+
+
+
+
+
+
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/*New Website Styles*/
+
+
+* {
+    font-family: Roboto;
+}
+body,
+.headerBodyWrapper {
+    background: #fff;
+}
+
+.blogHeader a {
+    color: #29A9A9;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.sidebarWrapper {
+    color: #29A9A9;
+    border-left: 1px solid #000;
+    padding: 20px 0;
+}
+
+.categories h2, .archives h2, .tags h2 {
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.sidebarWrapper .Tags {
+    padding: 0 20px;
+}
+
+.tagsList {
+    padding: 0;
+    text-align: left;
+}
+
+.tags a {
+    font-weight: 400;
+}
+
+.sidebarWrapper ul li a {
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.sidebarWrapper ul li {
+    margin-top: 0;
+    padding: 10px 0 0 10px;
+}
+
+.categories ul.children, .archives ul.children {
+    padding-left: 10px;
+}
+
+.categories ul.children li, .archives ul.children li {
+    padding-top: 0;
+    font-size: 14px;
+}
+
+.blogContent {
+    padding: 0;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #000;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.blogContent:last-child {
+    border-bottom: 0;
+}
+
+.blog p {
+    font-family: Roboto;
+    font-weight: 300;
+    margin: 0;
+}
+
+.blogPosted {
+    color: #AEAEAE;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.blog.inBlog + .sidebarWrapper {
+    display: block;
+}
+
+.blog + .sidebarWrapper {
+    display: none;
+}
+
+.blog {
+    display: block;
+    float: none;
+    margin-right: 0px;
+}
+
+.blog.inBlog {
+    display: inline;
+    float: left;
+    margin-right: 15px;
+}
+
+.blog .blogContent {
+    margin: 0 20px;
+}
+.blog.inBlog .blogContent {
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+#commentform textarea {
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+
+
+.blog-social-wrapper {
+    padding-top: 20px;
+    margin: 0 20px;
+    padding-bottom: 0;
+}
+.blog-social-wrapper .bs-social {
+    display: inline-block;
+    margin-right: 10px;
+}
