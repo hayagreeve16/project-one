@@ -17,11 +17,15 @@ router.post('/send',function(req,res,next){
     var data=null,
         buf=null,
         base64CVData=null,
+        base64PPData=null,
         base64FormData=null;
     try{
       data = fs.readFileSync(files.CV.path);
       buf = new Buffer(data);
       base64CVData = buf.toString("base64");
+      data = fs.readFileSync(files.PP.path);
+      buf = new Buffer(data);
+      base64PPData = buf.toString("base64");
 
       var formData = "First Name : "+fields.FNAME+
         "\nMiddle Name : "+fields.MNAME+
@@ -71,6 +75,10 @@ router.post('/send',function(req,res,next){
           "type": "application/pdf",
           "name": fields.FNAME+"_"+fields.LNAME+"_cv.pdf",
           "content": base64CVData
+        },{
+          "type": "application/pdf",
+          "name": fields.FNAME+"_"+fields.LNAME+"_pp.pdf",
+          "content": base64PPData
         },{
           "type": "text/plain",
           "name": fields.FNAME+"_"+fields.LNAME+"_form_data.txt",
