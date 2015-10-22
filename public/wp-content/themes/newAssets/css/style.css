@@ -793,7 +793,7 @@ a:focus, a:hover {
 }
 
 /* line 294, ../sass/style.scss */
-.hero-text-block h3:after {
+/*.hero-text-block h3:after {
   content: "";
   position: absolute;
   width: 15px;
@@ -812,7 +812,7 @@ a:focus, a:hover {
   -moz-transform: rotate(-45deg) translateY(10px);
   -o-transform: rotate(-45deg) translateY(10px);
   transform: rotate(-45deg) translateY(10px);
-}
+}*/
 
 @-webkit-keyframes updown {
   /* line 310, ../sass/style.scss */
