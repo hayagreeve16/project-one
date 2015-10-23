@@ -1,4 +1,4 @@
- 
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
@@ -12,7 +12,6 @@ transition-duration:2s;
 {
 z-index:1000;
 background: #2C3E50;
-
 border:0px solid;
   
 transition-duration:2s;
@@ -23,10 +22,14 @@ transition-duration:2s;
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-.logo_a {
-   bottom: -50px;
+    
+    .logo_a {bottom: -50px;
     height: 100px;
     width: 100px !important;
+}
+.foot_float{
+  position: static !important;
+  width: 100%;
 }
 </style>
 
@@ -38,17 +41,14 @@ transition-duration:2s;
 <meta property="og:title" content="Swaayatt Robots India Pvt. Ltd"/>
 <meta property="og:site_name" content="swaayatt-robots.com"/>
 
-
-
 <!-- CSS Files -->
 <link rel="stylesheet" type="text/css" href="wp-content/themes/newAssets/css/bootstrap.min.css">
 <link href="wp-content/themes/newAssets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 <link href="wp-content/themes/newAssets/css/print.css" media="print" rel="stylesheet" type="text/css" />
 
 <!--[if IE]>
-  <link href="http://atherenergy.com/wp-content/themes/Ather%20theme%203.1/newAssets/css/ie.css" media="screen, projection" rel="stylesheet" type=
+  <link href="wp-content/themes/newAssets/css/ie.css" media="screen, projection" rel="stylesheet" type=
 "text/css" />
-
 <![endif]-->
 <link rel="stylesheet" type="text/css" href="wp-content/themes/newAssets/css/normalize.css">
 
@@ -68,13 +68,13 @@ transition-duration:2s;
 <script type="text/javascript" src="wp-content/themes/newAssets/js/waypoints.min.js"></script>
 <script type="text/javascript" src="wp-content/themes/newAssets/js/isotope.pkgd.min.js"></script>
 <script type="text/javascript" src="wp-content/themes/newAssets/js/greensock/TimelineMax.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/newAssets/js/jquery.scrollmagic.min.js"></script>
 <script type="text/javascript" src="wp-content/themes/newAssets/js/jquery.fittext.js"></script>
 
 <script type="text/javascript">
 if(window.matchMedia) {
 	document.write(unescape("%3Cscript src='wp-content/themes/newAssets/js/enquire.min.js' type='text/javascript'%3E%3C/script%3E"));
 	document.write(unescape("%3Cscript src='wp-content/themes/newAssets/js/custom.js' type='text/javascript'%3E%3C/script%3E"));
-
 } else {
 	document.write(unescape("%3Cscript src='wp-content/themes/newAssets/js/media.match.min.js' type='text/javascript'%3E%3C/script%3E"));
 	document.write(unescape("%3Cscript src='wp-content/themes/newAssets/js/enquire.min.js' type='text/javascript'%3E%3C/script%3E"));
@@ -85,7 +85,6 @@ if(window.matchMedia) {
       function validate(abc)
       {
         var aa=abc;
-
         if(/[a-zA-Z]/.test(aa)) {
           alert('Invalid age');
           document.getElementById('mce-AGE').value='';
@@ -99,14 +98,11 @@ if(window.matchMedia) {
     </script>
 
   </head>
-  <body style="overflow-y:scroll">
-
-
-    
+  <body >
 
 
 
-    <!-- Logo -->
+<!-- Logo -->
     <div class="container-wrapper nav-container">
       <div class="container">
         <div class="row">
@@ -129,7 +125,7 @@ if(window.matchMedia) {
 
             <div class="nav-overlay-wrapper">
               <div class="nav-item nav-item-2">
-                <div class="ni-inside">
+                <div class="ni-inside" id="demo11">
                   <a href="index.html">
                     <p>Home</p>
                   </a>
@@ -143,7 +139,7 @@ if(window.matchMedia) {
                 </div>
               </div> 
               <div class="nav-item nav-item-2">
-                <div class="ni-inside" id="demo11">
+                <div class="ni-inside">
                   <a href="careers.html">
                     <p>Open Positions</p>
                   </a>
