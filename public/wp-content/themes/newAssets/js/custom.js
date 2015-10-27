@@ -721,12 +721,12 @@ var maxQuery = "(max-width: 767px)",
 
 
 
-// Ather Main Signup form
-$('.ather-form .demoNewsletter input').on('click', function(){
+// balaji Main Signup form
+$('.balaji-form .demoNewsletter input').on('click', function(){
 	if($(this).is(':checked')) {
-		$('.ather-form .demo input').prop('checked', false);
+		$('.balaji-form .demo input').prop('checked', false);
 	} else {
-		$('.ather-form .demo input').prop('checked', true);
+		$('.balaji-form .demo input').prop('checked', true);
 	}
 })
 
