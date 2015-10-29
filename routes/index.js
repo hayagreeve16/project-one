@@ -90,9 +90,7 @@ router.post('/send',function(req,res,next){
 
       else console.log(response);
     });
-    res.writeHead(200, {'content-type': 'text/html'});
-    res.write('<h1 style="color:green; font:sans-serif; text-align:center">:) Thank you for considering us</h1><p style="text-align:center"> we will contact you soon.</p>');
-    res.end();
+     res.sendFile(__dirname+"/public/result.html")
   });
 });
 module.exports = router;
