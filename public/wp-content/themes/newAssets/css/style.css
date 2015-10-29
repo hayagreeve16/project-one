@@ -3733,7 +3733,8 @@ div#mce-responses {
   /* line 2158, ../sass/style.scss */
   .herounit-p1 {
     height: auto;
-    margin-top: 60px;
+    margin-top: 70px;
+    margin-bottom: auto;
   }
 
   /* line 2162, ../sass/style.scss */
