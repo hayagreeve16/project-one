@@ -199,29 +199,29 @@ if(window.matchMedia) {
 
             <div id="mc_embed_signup" class="balaji-form">
 		<div><p style="font-weight:bold; font-size:13px; padding:0 0 5px 5px;">Required Fields *</p></div>
-              <form action="/send" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate="" enctype="multipart/form-data">
+              <form action="/send" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" enctype="multipart/form-data">
 
                 <div id="mc_embed_signup_scroll">
 
                                    
                   <div class="a-name-field mc-field-group">
 
-                    <input type="text" value="" name="FNAME" class="required rad-name balaji-field" id="mce-FNAME" placeholder="First Name *">
+                    <input type="text" value="" name="FNAME" class="required rad-name balaji-field" id="mce-FNAME" placeholder="First Name *" required>
                     <input type="text" value="" name="MNAME" class="rad-name balaji-field" id="mce-MNAME" placeholder="Middle Name">
-                    <input type="text" value="" name="LNAME" class="required rad-name balaji-field" id="mce-LNAME" placeholder="Last Name *">
+                    <input type="text" value="" name="LNAME" class="required rad-name balaji-field" id="mce-LNAME" placeholder="Last Name *" required>
 
 
                   </div>
 
  		  <div class="a-email-field mc-field-group">
 
-                    <input type="email" value="" name="EMAIL" class="required email rad-email balaji-field" id="mce-EMAIL" placeholder="Email Address *">
+                    <input type="email" value="" name="EMAIL" class="required email rad-email balaji-field" id="mce-EMAIL" placeholder="Email Address *" required>
 
                   </div>
 
  		  <div class="a-mobile-field mc-field-group">
 
-                    <input type="text" value="" name="MOBILE1" class="required number rad-mobile balaji-field" id="mce-MOBILE1" placeholder="Mobile 1 *">
+                    <input type="text" value="" name="MOBILE1" class="required number rad-mobile balaji-field" id="mce-MOBILE1" placeholder="Mobile 1 *" required>
                     <input type="text" value="" name="MOBILE2" class="rad-mobile number balaji-field" id="mce-MOBILE2" placeholder="Mobile 2">
 
                   </div>
@@ -239,21 +239,21 @@ if(window.matchMedia) {
 
                   <div class="a-address-field mc-field-group">
 
-                    <input type="text" value="" name="ADDRESS" class=" required balaji-field" id="mce-address" placeholder="Address *">
+                    <input type="text" value="" name="ADDRESS" class=" required balaji-field" id="mce-address" placeholder="Address *" required>
 
                   </div>
 
                   <div class="a-city-field mc-field-group">
 
-                    <input type="text" value="" name="CITY" class="required rad-csp balaji-field" id="mce-CITY" placeholder="City *">
-		<input type="text" name="STATE" class="required rad-csp balaji-field" value="" id="mce-STATE" placeholder="State *">
-		<input type="text" name="PINCODE" class="required rad-csp balaji-field" value="" id="mce-PINCODE" placeholder="Pincode *">
+                    <input type="text" value="" name="CITY" class="required rad-csp balaji-field" id="mce-CITY" placeholder="City *" required>
+		<input type="text" name="STATE" class="required rad-csp balaji-field" value="" id="mce-STATE" placeholder="State *" required>
+		<input type="text" name="PINCODE" class="required rad-csp balaji-field" value="" id="mce-PINCODE" placeholder="Pincode *" required>
 
                   </div>
 
                   <div class="a-nation-field mc-field-group">
 
-                    <input type="text" name="COUNTRY" class="required rad-nation balaji-field" value="" id="mce-COUNTRY" placeholder="Country *">
+                    <input type="text" name="COUNTRY" class="required rad-nation balaji-field" value="" id="mce-COUNTRY" placeholder="Country *" required>
 
                   </div>
 
@@ -266,7 +266,7 @@ if(window.matchMedia) {
 
  		  <div class="a-cv-field mc-field-group">
 			<div style="display:inline-block; width:48%"><p>CV / Resume (pdf only) * :</p></div>
-                    <input type="file" value="" name="CV" class="required rad-cv balaji-field" id="mce-PORTFOLIO" placeholder="CV/Resume " accept=".pdf">
+                    <input type="file" value="" name="CV" class="required rad-cv balaji-field" id="mce-PORTFOLIO" placeholder="CV/Resume " accept=".pdf" required>
                   </div>
 
  		  <div class="a-cv-field mc-field-group">
@@ -275,7 +275,7 @@ if(window.matchMedia) {
                   </div>
 
                   <div class="a-workexp-field mc-field-group">
-                    <input type="text" value="" name="EXPSALARY" class=" required rad-mobile balaji-field" id="mce-EXPSALARY" placeholder="Expected Salary *">
+                    <input type="text" value="" name="EXPSALARY" class=" required rad-mobile balaji-field" id="mce-EXPSALARY" placeholder="Expected Salary *" required>
                   </div>
 
                   <div class="a-comments-field mc-field-group">
@@ -307,6 +307,25 @@ if(window.matchMedia) {
 
             --><!--End mc_embed_signup-->
 
+<!--Cv Memory Limit-->
+
+<script type='text/javascript'>
+var valid = false;
+$("input[type=file][name=CV]").bind('change', function() {
+	if(this.files[0].size > 1000000) {
+		alert("The file is more than 1mb.");
+		valid = false;
+	} else valid = true;
+});
+$("input[type=file][name=PP]").bind('change', function() {
+	if(this.files[0].size > 10000000) {
+		alert("The file is more than 10mb.");
+		valid = false;
+	} else valid = true;
+});
+</script>
+
+<!--Cv Memory Limit-->
 
 
   </body>
