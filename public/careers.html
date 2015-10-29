@@ -308,24 +308,18 @@ if(window.matchMedia) {
 
            <!--Cv Memory Limit-->
 <script type='text/javascript'>
+var valid = false;
 $("input[type=file][name=CV]").bind('change', function() {
 	if(this.files[0].size > 1000000) {
 		alert("The file is more than 1mb.");
-		var input = $("input[type=file][name=CV]");
-		input.replaceWith(input.val('').clone(true));
-	}
+		valid = false;
+	} else valid = true;
 });
 $("input[type=file][name=PP]").bind('change', function() {
 	if(this.files[0].size > 10000000) {
 		alert("The file is more than 10mb.");
-		var inpu2t = $("input[type=file][name=PP]");
-		input2.replaceWith(input2.val('').clone(true));
-	}
-});
-$("#mc-embedded-subscribe-form").on('submit', function(e){
-	$("#mc-embedded-subscribe-form").each(function(){
-		this.reset();
-	});
+		valid = false;
+	} else valid = true;
 });
 </script>
 
