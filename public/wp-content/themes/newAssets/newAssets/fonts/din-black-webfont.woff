@@ -1,27 +1,27 @@
-<html>
+﻿<html>
 <head>
-	<title>Ather Energy | Smart Electric Vehicles</title>
-		<meta name="Description" content="Ather is an electric vehicle start-up based out of the Incubation Cell, IIT Madras.">
+	<title>SwaayattRobots</title>
+		<meta name="Description" content="SwaayattRobots is an electric vehicle start-up based out of the Incubation Cell, IIT Madras.">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="http://atherenergy.com/wp-content/themes/Ather%20theme%203.1/style.css">
-	<link rel="icon" href="http://atherenergy.com/wp-content/themes/Ather%20theme%203.1/images/fav.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" href="wp-content/themes/style.css">
+	<link rel="icon" href="wp-content/themes/images/fav.png" type="image/png" sizes="16x16">
 </head>
 <body>
 	<div class="headerBodyWrapper">
 		<div class="headerWrapper" id="headerWrapperAnchor">
 			<div class="header">
-				<div class="img"><a href="/index.php"><img src="http://atherenergy.com/wp-content/themes/Ather%20theme%203.1/images/logo_new.png" /></a></div>
+				<div class="img"><a href="/index.php"><img src="wp-content/themes/images/logo_new.png" /></a></div>
 				
 <div class="menu">
 	<ul>
 		<li class="page_item page-item-50">
-			<a href="http://atherenergy.com/about/">About</a>
+			<a href="http://.com/about/">About</a>
 		</li>
 		<li class="page_item">
-			<a href="http://atherenergy.com/blog/">Blog</a>
+			<a href="http//.com/blog/">Blog</a>
 		</li>
 		<li class="page_item">
-			<a href="http://atherenergy.com/about#demoDown">Demo</a>
+			<a href="http://.com/about#demoDown">Demo</a>
 		</li>
 	</ul>
 </div>
@@ -35,7 +35,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-50662119-1', 'atherenergy.com');
+  ga('create', 'UA-50662119-1', 'swaayatt-robots.com');
   ga('send', 'pageview');
 
 </script>
@@ -45,7 +45,7 @@
 			    						<a href="">
 						<div class="blogContent">
 					    	<div class="blogHeader">
-					    		<a href="http://atherenergy.com/brain-for-the-brawn-battery-management-system/">Brain for the brawn: Battery Management System</a>
+					    		<a href="brain-for-the-brawn-battery-management-system/">Brain for the brawn: Battery Management System</a>
 					    	</div>
 					    	<div class="blogPosted">
 					    		Posted on June 16th, 2015	
@@ -59,7 +59,7 @@
 				 						<a href="">
 						<div class="blogContent">
 					    	<div class="blogHeader">
-					    		<a href="http://atherenergy.com/understanding-the-fame-india-scheme/">Understanding the FAME India scheme</a>
+					    		<a href="understanding-the-fame-india-scheme/">Understanding the FAME India scheme</a>
 					    	</div>
 					    	<div class="blogPosted">
 					    		Posted on April 21st, 2015	
@@ -73,7 +73,7 @@
 				 						<a href="">
 						<div class="blogContent">
 					    	<div class="blogHeader">
-					    		<a href="http://atherenergy.com/the-charger-challenge/">The Charger Challenge</a>
+					    		<a href=".com/the-charger-challenge/">The Charger Challenge</a>
 					    	</div>
 					    	<div class="blogPosted">
 					    		Posted on April 3rd, 2015	

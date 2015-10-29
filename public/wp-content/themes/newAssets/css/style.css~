@@ -1,12 +1,12 @@
-@charset "IBM437";
+﻿@charset "IBM437";
 /*Mixin Block*/
 /*End of Mixin Block*/
 /*Functions*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400);
 @font-face {
   font-family: "Din Black";
-  src: url("wp-content/themes/Ather%20theme%203.1/newAssets/newAssets/fonts/din-black-webfont.eot");
-  src: url("wp-content/themes/Ather%20theme%203.1/newAssets/newAssets/fonts/din-black-webfont.eot?") format("embedded-opentype"), url("wp-content/themes/Ather%20theme%203.1/newAssets/newAssets/fonts/din-black-webfont.woff") format("woff"), url("wp-content/themes/Ather%20theme%203.1/newAssets/newAssets/fonts/din-black-webfont.ttf") format("truetype"), url("wp-content/themes/Ather%20theme%203.1/newAssets/newAssets/fonts/din-black-webfont.svg") format("svg");
+  src: url("wp-content/themes/newAssets/newAssets/fonts/din-black-webfont.eot");
+  src: url("wp-content/themes/newAssets/newAssets/fonts/din-black-webfont.eot?") format("embedded-opentype"), url("wp-content/themes/newAssets/newAssets/fonts/din-black-webfont.woff") format("woff"), url("wp-content/themes/newAssets/newAssets/fonts/din-black-webfont.ttf") format("truetype"), url("wp-content/themes/newAssets/newAssets/fonts/din-black-webfont.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1724,12 +1724,12 @@ p.spc-body {
 }
 
 /* line 739, ../sass/style.scss */
-.ather-address {
+.balaji-address {
   text-align: left;
 }
 
 /* line 743, ../sass/style.scss */
-.ather-address p {
+.balaji-address p {
   margin-bottom: 10px;
   line-height: 120%;
   font-size: 14px;
@@ -1738,11 +1738,11 @@ p.spc-body {
 }
 
 /* line 751, ../sass/style.scss */
-.ather-address p a {
+.balaji-address p a {
   color: #666;
 }
 /* line 753, ../sass/style.scss */
-.ather-address p a:hover {
+.balaji-address p a:hover {
   color: #00b2b2;
 }
 
@@ -2763,7 +2763,7 @@ html .safari-yu-no-image-in-svg .big-text-block img.fallback-image {
 }
 
 /* line 1464, ../sass/style.scss */
-.ather-form {
+.balaji-form {
   text-align: left;
   width: 600px;
   margin: 0 auto;
@@ -2778,7 +2778,7 @@ html .safari-yu-no-image-in-svg .big-text-block img.fallback-image {
 }
 
 /* line 1478, ../sass/style.scss */
-.ather-field {
+.balaji-field {
   font-size: 16px;
   padding: 9px 5px;
   margin-bottom: 16px;
@@ -2791,8 +2791,8 @@ html .safari-yu-no-image-in-svg .big-text-block img.fallback-image {
 }
 
 /* line 1491, ../sass/style.scss */
-.ather-field:focus,
-.ather-field:hover {
+.balaji-field:focus,
+.balaji-field:hover {
   outline: none;
 }
 
@@ -2893,7 +2893,7 @@ color:#aaa;
 }
 
 /* line 1553, ../sass/style.scss */
-.ather-submit {
+.balaji-submit {
   box-shadow: none;
   border: 2px solid #2ECC71;
   border-radius: 12px;
@@ -2908,13 +2908,13 @@ color:#aaa;
 }
 
 /* line 1568, ../sass/style.scss */
-.ather-submit:hover,
-.ather-submit:focus {
+.balaji-submit:hover,
+.balaji-submit:focus {
   outline: none;
 }
 
 /* line 1572, ../sass/style.scss */
-.ather-submit:hover {
+.balaji-submit:hover {
   background: transparent;
   color: #2ECC71;
 }
@@ -2926,7 +2926,7 @@ color:#aaa;
 }
 
 /* line 1587, ../sass/style.scss */
-.ather-form li.newsletter {
+.balaji-form li.newsletter {
   display: none;
 }
 
@@ -3078,19 +3078,19 @@ div#mce-responses {
 }
 
 /* line 1702, ../sass/style.scss */
-.newsletter-only .ather-submit {
+.newsletter-only .balaji-submit {
   width: 100%;
   padding: 7px 35px;
 }
 
 /* line 1706, ../sass/style.scss */
-.newsletter-only .ather-submit:hover {
+.newsletter-only .balaji-submit:hover {
   border-color: #fff;
   color: #fff;
 }
 
 /* line 1710, ../sass/style.scss */
-.newsletter-only .ather-field {
+.newsletter-only .balaji-field {
   width: 90%;
   margin-bottom: 0;
   border-color: #fff;
@@ -3968,7 +3968,7 @@ div#mce-responses {
   }
 
   /* line 2325, ../sass/style.scss */
-  .ather-form {
+  .balaji-form {
     width: 450px;
   }
 
@@ -4025,7 +4025,7 @@ div#mce-responses {
   }
 
   /* line 2363, ../sass/style.scss */
-  .newsletter-only .ather-field {
+  .newsletter-only .balaji-field {
     width: 100%;
   }
 }
@@ -4080,13 +4080,13 @@ div#mce-responses {
   }
 
   /* line 2415, ../sass/style.scss */
-  .ather-form .mc-field-group {
+  .balaji-form .mc-field-group {
     float: none;
     width: 100%;
   }
 
   /* line 2419, ../sass/style.scss */
-  .ather-form {
+  .balaji-form {
     display: block !important;
     width: auto;
   }
@@ -4097,7 +4097,7 @@ div#mce-responses {
   }
 
   /* line 2426, ../sass/style.scss */
-  .ather-submit {
+  .balaji-submit {
     width: auto;
   }
 
@@ -4115,7 +4115,7 @@ div#mce-responses {
   }
 
   /* line 2441, ../sass/style.scss */
-  .ather-address {
+  .balaji-address {
     width: 100%;
   }
 

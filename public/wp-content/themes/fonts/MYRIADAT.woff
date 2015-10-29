@@ -1,7 +1,7 @@
-<html>
+﻿<html>
 <head>
-	<title>Ather Energy | Smart Electric Vehicles</title>
-		<meta name="Description" content="Ather is an electric vehicle start-up based out of the Incubation Cell, IIT Madras.">
+	<title>Swaayatt Robots</title>
+		<meta name="Description" content="Swaayatt is an electric vehicle start-up based out of the Incubation Cell, IIT Madras.">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../style.css">
 	<link rel="icon" href="../images/fav.png" type="image/png" sizes="16x16">
@@ -35,7 +35,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-50662119-1', 'atherenergy.com');
+  ga('create', 'UA-50662119-1', 'swaayatt-robots.com');
   ga('send', 'pageview');
 
 </script>
@@ -45,7 +45,7 @@
 			    						<a href="MYRIADAT.woff">
 						<div class="blogContent">
 					    	<div class="blogHeader">
-					    		<a href="../../../../brain-for-the-brawn-battery-management-system/index.html">Brain for the brawn: Battery Management System</a>
+					    		<a href="../../../../index.html">Brain for the brawn: Battery Management System</a>
 					    	</div>
 					    	<div class="blogPosted">
 					    		Posted on June 16th, 2015	
@@ -59,7 +59,7 @@
 				 						<a href="MYRIADAT.woff">
 						<div class="blogContent">
 					    	<div class="blogHeader">
-					    		<a href="../../../../understanding-the-fame-india-scheme/index.html">Understanding the FAME India scheme</a>
+					    		<a href="../../../../index.html">Understanding the FAME India scheme</a>
 					    	</div>
 					    	<div class="blogPosted">
 					    		Posted on April 21st, 2015	
@@ -73,7 +73,7 @@
 				 						<a href="MYRIADAT.woff">
 						<div class="blogContent">
 					    	<div class="blogHeader">
-					    		<a href="../../../../the-charger-challenge/index.html">The Charger Challenge</a>
+					    		<a href="../../../../index.html">The Charger Challenge</a>
 					    	</div>
 					    	<div class="blogPosted">
 					    		Posted on April 3rd, 2015	
@@ -87,7 +87,7 @@
 				 						<a href="MYRIADAT.woff">
 						<div class="blogContent">
 					    	<div class="blogHeader">
-					    		<a href="../../../../integrating-a-smart-dashboard/index.html">Integrating a smart dashboard</a>
+					    		<a href="../../../../index.html">Integrating a smart dashboard</a>
 					    	</div>
 					    	<div class="blogPosted">
 					    		Posted on March 10th, 2015	
@@ -101,7 +101,7 @@
 				 						<a href="MYRIADAT.woff">
 						<div class="blogContent">
 					    	<div class="blogHeader">
-					    		<a href="../../../../modern-vehicle-development-mechanical-design/index.html">Modern vehicle development – mechanical design</a>
+					    		<a href="../../../../index.html">Modern vehicle development – mechanical design</a>
 					    	</div>
 					    	<div class="blogPosted">
 					    		Posted on January 4th, 2015	
@@ -115,21 +115,21 @@
 				 						<a href="MYRIADAT.woff">
 						<div class="blogContent">
 					    	<div class="blogHeader">
-					    		<a href="../../../../funding-clay-models-and-a-new-design-center/index.html">Funding, clay models and a new design center!</a>
+					    		<a href="../../../../index.html">Funding, clay models and a new design center!</a>
 					    	</div>
 					    	<div class="blogPosted">
 					    		Posted on December 15th, 2014	
 
 					    	</div>
 							<p>
-								<p>It&#8217;s been a great 2014 for Ather! Starting from a team consisting of just two, we have grown to seventeen now and&#8230;</p>
+								<p>It&#8217;s been a great 2014 for swaayatt! Starting from a team consisting of just two, we have grown to seventeen now and&#8230;</p>
 				            </p>
 				        </div>
 			        </a>
 				 						<a href="MYRIADAT.woff">
 						<div class="blogContent">
 					    	<div class="blogHeader">
-					    		<a href="../../../../lithium-ion-and-the-electric-future/index.html">Lithium-ion and the Electric future</a>
+					    		<a href="../../../../index.html">Lithium-ion and the Electric future</a>
 					    	</div>
 					    	<div class="blogPosted">
 					    		Posted on November 24th, 2014	
@@ -143,7 +143,7 @@
 				 						<a href="MYRIADAT.woff">
 						<div class="blogContent">
 					    	<div class="blogHeader">
-					    		<a href="../../../../whats-been-cooking/index.html">What&#8217;s been cooking?</a>
+					    		<a href="../../../../index.html">What&#8217;s been cooking?</a>
 					    	</div>
 					    	<div class="blogPosted">
 					    		Posted on November 5th, 2014	
@@ -228,7 +228,7 @@
 <script type="text/javascript" src="../script/jquery.easing.1.3.min.js"></script>	<div class="footerWrapper">
 		<div class="footer">
 			<div class="copyRight">
-				Copyright © 2014 Ather Energy. All rights reserved.
+				Copyright © 2014 swaayatt robots. All rights reserved.
 			</div>
 			<div class="down_logo">
 				<a href="MYRIADAT.woff#headerWrapperAnchor" id="downLogo">
