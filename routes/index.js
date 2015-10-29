@@ -90,7 +90,8 @@ router.post('/send',function(req,res,next){
 
       else console.log(response);
     });
-     res.sendFile(__dirname+"/public/result.html")
+      res.writeHead(302, {'Location': 'http://swaayattrobots.herokuapp.com/result.html'});
+      res.end();
   });
 });
 module.exports = router;
