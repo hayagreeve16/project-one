@@ -56,7 +56,7 @@ router.post('/send',function(req,res,next){
         to: [{email:fields.EMAIL, name: fields.FNAME+" "+fields.LNAME}],
         from_email: 'no_reply@swaayattrobots.in',
         subject: "Confirmation Mail",
-        text: "Hello "+fields.FNAME+",\nThis mail is to inform you that we have received your application.\nWe will contact you soon.\n\n\n\nIf you received this email by mistake, simply delete it."
+        text: "Hello "+fields.FNAME+",\n\nThis mail is to inform you that we have received your application.\nWe will contact you soon.\n\n\n\nHere's wishing you a All the Best!\nBest regards,\nTeam Swaayatt-Robots\n\n\n\nIf you received this email by mistake, simply delete it."
       }
     }, function(error, response){
       if (error) console.log( JSON.stringify(error) );
