@@ -222,8 +222,8 @@ if(window.matchMedia) {
 
  		  <div class="a-mobile-field mc-field-group">
 
-                    <input type="text" value="" name="MOBILE1" class="required number rad-mobile balaji-field" id="mce-MOBILE1" placeholder="Mobile 1 *" required>
-                    <input type="text" value="" name="MOBILE2" class="rad-mobile number balaji-field" id="mce-MOBILE2" placeholder="Mobile 2">
+                    <input type="text" value="" name="MOBILE1" maxlength="10" class="required number rad-mobile balaji-field" id="mce-MOBILE1" placeholder="Mobile 1 *" required>
+                    <input type="text" value="" name="MOBILE2" maxlength="10" class="rad-mobile number balaji-field" id="mce-MOBILE2" placeholder="Mobile 2">
 
                   </div>
 
@@ -248,7 +248,7 @@ if(window.matchMedia) {
 
                     <input type="text" value="" name="CITY" class="required rad-csp balaji-field" id="mce-CITY" placeholder="City *" required>
 		<input type="text" name="STATE" class="required rad-csp balaji-field" value="" id="mce-STATE" placeholder="State *" required>
-		<input type="text" name="PINCODE" class="required rad-csp balaji-field" value="" id="mce-PINCODE" placeholder="Pincode *" required>
+		<input type="text" name="PINCODE" maxlength="6" class="required rad-csp balaji-field" value="" id="mce-PINCODE" placeholder="Pincode *" required>
 
                   </div>
 
@@ -268,25 +268,17 @@ if(window.matchMedia) {
  		  <div class="a-cv-field mc-field-group">
 			<div style="display:inline-block; width:48%"><p>CV / Resume (pdf only) * :</p></div>
                     <input type="file" value="" name="CV" class="required rad-cv balaji-field" id="mce-PORTFOLIO" placeholder="CV/Resume " accept=".pdf" required>
-							<br>
-				<input type="submit" id="submit-btn" value="Upload" style="background:#FA7A2C; border-radius:5px; color:#fff; padding:5px; margin-top:10px; width:80px; height:30px">
-				<img src="wp-content/themes/newAssets/images/ajax-loader.gif" id="loading-img" style="display:none;" alt="Please Wait">
-				<div id="progressbox"><div id="progressbar"></div><div id="statustxt">0%</div></div>
-				<div id="output"></div>
+							
                   </div>
 
  		  <div class="a-cv-field mc-field-group">
 			<div style="display:inline-block; width:48%"><p>Papers Published (pdf only) :</p></div>
                     <input type="file" value="" name="PP" class="rad-cv balaji-field" id="mce-PORTFOLIO" placeholder="Papers Published " accept=".pdf">
-							<br>
-				<input type="submit" id="submit-btn" value="Upload" style="background:#FA7A2C; border-radius:5px; color:#fff; padding:5px; margin-top:10px; width:80px; height:30px">
-				<img src="wp-content/themes/newAssets/images/ajax-loader.gif" id="loading-img" style="display:none;" alt="Please Wait">
-				<div id="progressbox"><div id="progressbar"></div><div id="statustxt">0%</div></div>
-				<div id="output"></div>
+							
                   </div>
 
                   <div class="a-workexp-field mc-field-group">
-                    <input type="text" value="" name="EXPSALARY" class=" required rad-mobile balaji-field" id="mce-EXPSALARY" placeholder="Expected Salary *" required>
+                    <input type="text" value="" name="EXPSALARY" maxlength="5" class=" required rad-mobile balaji-field" id="mce-EXPSALARY" placeholder="Expected Salary &#8377 *" required>
                   </div>
 
                   <div class="a-comments-field mc-field-group">
@@ -304,7 +296,11 @@ if(window.matchMedia) {
 
                   <div style="position: absolute; left: -5000px;"><input type="text" name="b_f0a19538d3457d896d6ac1acc_9c01d8852d" tabindex="-1" value=""></div>
 
-                  <div class="clear" style="margin:0 auto; width:137px;"><input type="submit" value="Submit" name="submit-button" id="mc-embedded-subscribe" class="button balaji-submit"></div>
+                  <div class="clear" style="margin:0 auto; width:137px;"><input type="submit" value="Submit" name="submit-button" id="mc-embedded-subscribe" class="button balaji-submit">
+						<br>
+				<img src="wp-content/themes/newAssets/images/ajax-loader.gif" id="loading-img" style="display:none;" alt="Please Wait">
+				<div id="progressbox"><div id="progressbar"></div><div id="statustxt">0%</div></div>
+				<div id="output"></div></div>
 
                 </div>
 
